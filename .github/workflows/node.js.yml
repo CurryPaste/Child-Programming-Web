@@ -6,9 +6,9 @@ name: Node.js CI
 on:
   # push/pr
   push:
-    branches: [ "main" ]
+    branches: [ "master" ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ "master" ]
   # 手动触发
   workflow_dispatch:
 
